@@ -1,7 +1,7 @@
 my_list=[1, 2, 3, 4, 5]
 
 my_list2=my_list[1::2]
-
+# print(my_list2)
 new_list1=[x for x in my_list if x not in my_list2]
 
 combi_list = [new_list1 , my_list2 ]
