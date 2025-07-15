@@ -14,9 +14,10 @@ if actions1 in actions:
         print("Result :", number1 + number2)
     elif actions1 =='*':
         print("Result :", number1 * number2)
-    elif actions1 =='/' and number2 != 0:
-        print("Result :", number1 / number2)
-    else:
-        print("Rusult :You can't divide by zero")
+    elif actions1 =='/':
+        if number2 != 0:
+         print("Result :", number1 / number2)
+        else:
+         print("Rusult :You can't divide by zero")
 else:
     print ("Don't be meanie, choose an action from the list.")
