@@ -1,4 +1,4 @@
-lst_numbers=[0]
+lst_numbers=[9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
 
 zero_count=0
 zero_list=[]

@@ -1,10 +1,30 @@
-list_numbers = [1,4,0,4,5,1,2,7,0,6,0]
+import random
 
-print(list_numbers.sort())
-print(list_numbers)
+lst1 = random.randint(3, 10)
+random_lst = [random.randint(3, 10) for i in range(lst1)]
+print(random_lst)
 
-while x == 0 :
-    elem
+new_lst=(random_lst[0],random_lst[2],random_lst[-2])
+print(new_lst)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # print(list_numbers.count(0))
@@ -23,4 +43,4 @@ while x == 0 :
 # # если хотя бы один элемент из списка тру вернет нам значение тру
 # from copy import deepcopy
 # list_numbers2=deepcopy(list_numbers)
-# # копирование списка с его клонирование что дает возможность меня их независимо друг от друга
+# # копирование списка с его клонированием что дает возможность менять их независимо друг от друга
