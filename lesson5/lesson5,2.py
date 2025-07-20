@@ -30,3 +30,9 @@ while True :
         print(a / b)
     else:
         print("Rusult :You can't divide by zero")
+
+
+
+
+
+ # choice=int(input("Enter your choice: "))
