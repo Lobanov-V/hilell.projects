@@ -11,4 +11,4 @@ hashtag = '#' + ''.join(words_capitalized)
 if len(hashtag) > 140:
     hashtag = hashtag[:140]
 
-print(hashtag)
+# print(hashtag)
