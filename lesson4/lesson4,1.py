@@ -1,19 +1,39 @@
-lst_numbers=[9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
+lst_numbers=[]
 
-zero_count=0
-zero_list=[]
+zero_count=lst_numbers.count(0)
 
-for x in lst_numbers:
-    if x==0:
-        zero_count+=1
-    else:
-        zero_list.append(x)
+for x in range(zero_count):
+    lst_numbers.remove(0)
 
-for _ in range(zero_count):
-    zero_list.append(0)
+for x in range(zero_count):
+    lst_numbers.append(0)
 
-print(zero_list)
+print(lst_numbers)
 
+
+
+
+
+
+
+
+
+
+# lst_numbers=[9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
+#
+# zero_count=0
+# zero_list=[]
+#
+# for x in lst_numbers:
+#     if x==0:
+#         zero_count+=1
+#     else:
+#         zero_list.append(x)
+#
+# for _ in range(zero_count):
+#     zero_list.append(0)
+#
+# print(zero_list)
 
 # [0, 1, 0, 12, 3] -> [1, 12, 3, 0, 0]
 # [0] -> [0]
