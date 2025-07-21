@@ -26,10 +26,12 @@ while True :
         print(a - b)
     elif choice == 3:
         print(a * b)
-    elif choice == 4 and b!=0:
-        print(a / b)
-    else:
-        print("Rusult :You can't divide by zero")
+    elif choice == 4:
+        if b!=0:
+            print(a / b)
+        else :
+            print("You can't divide by zero")
+
 
 
 
