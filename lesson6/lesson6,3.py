@@ -1,13 +1,20 @@
-import string
+while True:
+    user_number =input("Enter an integer (or 'exit' to quit): ")
 
-user_letters=input("Enter two letter")
+    if user_number == 'exit':
+        print("Goodbye")
+        break
 
-first , second =user_letters.split("-")
+    if not user_number.lstrip('-').isdigit():
+        print("Please enter a valid integer.")
+        continue
 
-all_letters = string.ascii_letters
+    user_number=abs(int(user_number))
 
-first_index = all_letters.index(first)
-second_index = all_letters.index(second)
+    while user_number > 9 :
+        outcome = 1
+        for digit in str(user_number):
+            outcome *= int(digit)
+        user_number = outcome
 
-result= all_letters[first_index:second_index +1]
-print(result)
+    print(f"Result: {user_number}")
