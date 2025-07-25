@@ -10,9 +10,11 @@ if 0 <= seconds < 8640000:
     s_str = str(seconds).zfill(2)
 
     if days == 1:
-        day_count = "day"
+        day_count = "день"
+    elif 2<= days <= 4:
+        day_count = "дні"
     else:
-        day_count = "days"
+        day_count = "днів"
 
     print(f"{days} {day_count}, {h_str}:{m_str}:{s_str}")
 
