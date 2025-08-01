@@ -5,3 +5,5 @@ def common_elements() -> set[int]:
     return multiples_of_3 & multiples_of_5
 
 print(common_elements())
+
+assert common_elements() == {0, 75, 45, 15, 90, 60, 30}
