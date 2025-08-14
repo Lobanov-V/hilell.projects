@@ -8,7 +8,6 @@ def pow2(x):
     return x ** 2
 
 from inspect import isgenerator
-
 gen = some_gen(2, 4, pow2)
 
 
