@@ -1,4 +1,5 @@
 def some_gen(begin, n, func):
+
     current = begin
 
     for _ in range(n):
