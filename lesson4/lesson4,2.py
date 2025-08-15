@@ -1,5 +1,5 @@
 
-lst_numbers=[1, 3, 5]
+lst_numbers=[1, 3, 5,10,20]
 
 new_list =(lst_numbers[0::2])
 if not lst_numbers:
