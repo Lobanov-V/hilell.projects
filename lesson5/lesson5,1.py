@@ -22,8 +22,8 @@ else:
             valid = False
             break
 
-print(valid)
 
+print(valid)
 
 # _ => True
 # __ => False
