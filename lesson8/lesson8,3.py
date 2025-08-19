@@ -7,7 +7,7 @@ def find_unique_value(numbers: list[int]) -> int | None:
 
 
 
-print(find_unique_value([]))
+print(find_unique_value([22,44,33,22,33,1,1,1,1,1,]))
 
 
 

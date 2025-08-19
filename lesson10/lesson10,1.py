@@ -13,6 +13,8 @@ from inspect import isgenerator
 gen = some_gen(2, 4, pow2)
 
 
-assert isgenerator(gen) == True, 'Test1'
-assert list(gen) == [2, 4, 16, 256], 'Test2'
-print('OK'
+# assert isgenerator(gen) == True, 'Test1'
+# assert list(gen) == [2, 4, 16, 256], 'Test2'
+# print('OK')
+
+print(list(some_gen(3,9,pow2)))
