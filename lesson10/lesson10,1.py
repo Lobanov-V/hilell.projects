@@ -1,3 +1,5 @@
+from typing import Generator
+
 def some_gen(begin:int, n:int, func)->Generator[int, None, None]:
 
     current = begin
